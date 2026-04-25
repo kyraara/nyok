@@ -5,14 +5,14 @@ const appConfig = {
   // ACCESS GATE
   secretPassword: "0804",
   passwordHint: "Enter 4-digit master_key to decrypt...",
-  birthdayDate: "2026-04-26T00:00:00",
+  birthdayDate: "2026-04-25T00:00:00",
 
   // GALLERY — Photo Frames
   photos: [
     { id: 1, url: '/images/gambar1.png', audioUrl: '/audio/pembohong.mp3', text: 'init_commit.jpg', memory: 'Waktu itu project pertama yang kita bikin bareng inget gak? Walaupun berantem mulu tapi lucu', position: [4.9, 1.8, -6], rotation: [0, -Math.PI / 2, 0] },
     { id: 2, url: '/images/gambar2.png', audioUrl: '/audio/p2.mp3', text: 'second_push.jpg', memory: 'Project kedua kita, waktu kamu pusing bikin web GIS ini dan kita selesaikan berdua.', position: [-4.9, 1.8, -13], rotation: [0, Math.PI / 2, 0] },
     { id: 3, url: '/images/gambar3.jpeg', audioUrl: '/audio/p1.mp3', text: 'feature_branch.jpg', memory: 'Kamu yang mulai duluan loh wkwkwk.', position: [4.9, 1.8, -20], rotation: [0, -Math.PI / 2, 0] },
-    { id: 4, url: '/images/dummy_4_1775657172282.png', audioUrl: '/audio/tes.ogg', text: 'milestone_v1.0.jpg', memory: 'Dan setiap momen kecil bersamamu, layak untuk dirayakan.', position: [-4.9, 1.8, -27], rotation: [0, Math.PI / 2, 0] }
+    { id: 4, url: '/images/dummy_4_1775657172282.png', audioUrl: '/audio/pembohong.mp3', text: 'milestone_v1.0.jpg', memory: 'Dan setiap momen kecil bersamamu, layak untuk dirayakan.', position: [-4.9, 1.8, -27], rotation: [0, Math.PI / 2, 0] }
   ],
 
   // TERMINAL LETTER (git commit log style)
@@ -30,7 +30,7 @@ const appConfig = {
 
   // BGM
   bgmUrl: '/audio/hari_ini.mp3',
-  bgmEndUrl: '/audio/kamu.mp3',
+  bgmEndUrl: '/audio/end.mp3',
   bgmSecretUrl: '', // Optional: separate BGM for secret room
 
   // GIFT

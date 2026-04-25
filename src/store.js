@@ -5,7 +5,7 @@ const appConfig = {
   // ACCESS GATE
   secretPassword: "0804",
   passwordHint: "Enter 4-digit master_key to decrypt...",
-  birthdayDate: "2026-04-25T00:00:00",
+  birthdayDate: "2026-04-26T00:00:00",
 
   // GALLERY — Photo Frames
   photos: [

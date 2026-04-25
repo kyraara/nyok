@@ -3,7 +3,7 @@ import * as THREE from 'three'
 
 const appConfig = {
   // ACCESS GATE
-  secretPassword: "0804",
+  secretPassword: "2807",
   passwordHint: "Enter 4-digit master_key to decrypt...",
   birthdayDate: "2026-04-26T00:00:00",
 
